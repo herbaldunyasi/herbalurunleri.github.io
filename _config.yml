@@ -1,8 +1,8 @@
-title: "Anıl'ın Yazıları"
+title: "Herbalife Ürünleri"
 description: "Yararlı bilgilerin paylaşıldığı bir yazılımcı blogu"
 disqus_shortname: aristona
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url: "http://herbaldunyasi.github.io"
+url: "http://herbalurunleri.github.io"
 
 gems: ["jekyll-paginate"]
 
@@ -37,7 +37,7 @@ bing_verify:
 # For external links add external: true
 links:
 - title: Bana Ulaşın
-  url: "http://anilunal.com/contact"
+  url: "https://herbaldunyasi.com/iletisim"
   external: true
 
 
