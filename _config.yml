@@ -1,0 +1,65 @@
+title: "Anıl'ın Yazıları"
+description: "Yararlı bilgilerin paylaşıldığı bir yazılımcı blogu"
+disqus_shortname: aristona
+#Your site's domain goes here. Leave localhost server or blank when working locally.
+url: "http://herbaldunyasi.github.io"
+
+gems: ["jekyll-paginate"]
+
+# Owner/author information
+owner:
+  name: "Anıl ÜNAL"
+  avatar: avatar.jpg
+  bio: "Lütfen kişisel sitemi inceleyin."
+  email: iamaristona@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  facebook: "aristona"
+  github: "Aristona"
+  stackexchange: "http://stackoverflow.com/users/1043575/aristona"
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+
+# Background image to be tiled on all pages
+background: ps_neutral.png
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+- title: Bana Ulaşın
+  url: "http://anilunal.com/contact"
+  external: true
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Istanbul
+future: true
+highlighter: rouge
+markdown: kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:categories/:title
+
+# Amount of post to show on home page
+paginate: 10
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", ".git"]
